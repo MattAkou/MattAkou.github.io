@@ -1,8 +1,10 @@
+import React from 'react';
+
 // Skills icons - https://icon-sets.iconify.design/
 import { Icon } from "@iconify/react";
 
 // Navbar Logo image (uncomment below and import your image)
-// import newLogo from "./images/yourFileName"
+import newLogo from "./images/logo.png"
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -18,20 +20,20 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "MattAkou";
 
 // Navbar Logo image
-export const navLogo = undefined;
+export const navLogo = newLogo;
 
 // Blog link icon - https://icon-sets.iconify.design/
-export const Blog = <Icon icon="ph:link-bold" />;
+export const Blog = <Icon icon="carbon:logo-linkedin" />;
 
 /* About Me
  **************************************************************
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I’m a new technologies enjoyer, interested in IoT, AI imprementation, new technology and in general (in lossless) multimedia --- I'm using Michael Huber's template.";
 
 /* Skills
  ************************************************************** 
@@ -40,46 +42,41 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
-    name: "HTML5",
+    skill: <Icon icon="simple-icons:python" className="display-4" />,
+    name: "Python",
   },
   {
     id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
-    name: "CSS3",
+    skill: <Icon icon="nonicons:c-plusplus-16" className="display-4" />,
+    name: "C++",
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
-    name: "JavaScript",
+    skill: <Icon icon="simple-icons:pytorch" className="display-4" />,
+    name: "PyTorch",
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    skill: <Icon icon="bi:nvidia" className="display-4" />,
+    name: "CUDA",
   },
   {
     id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
-    name: "React",
+    skill: <Icon icon="ri:java-fill" className="display-4" />,
+    name: "JAVA",
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    skill: <Icon icon="codicon:terminal-bash" className="display-4" />,
+    name: "bash",
   },
   {
     id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
     skill: <Icon icon="bi:git" className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
+    id: 8,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
